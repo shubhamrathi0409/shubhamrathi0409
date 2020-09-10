@@ -1,0 +1,199 @@
+body{
+	margin: 1%;
+}
+
+header{
+  	line-height: 65px;
+	background-color: #FFFFFF;
+	background-image: url("images/apollohospital3.jpg");
+	background-size: 100%;
+	padding:20px;	
+} 
+
+button{
+	
+	background: #0087cc;
+	border:2px;
+	border-radius: 4px;
+	box-sizing: 10px;
+	box-shadow:0 10px 15px #0a55f7;
+	color: #fff;
+	cursor: pointer;
+	font: italic;
+	margin: 4px;
+	outline: 1px;
+	padding: 15px 22px;
+	transition: all  .1s linear;
+
+
+}
+
+button:active{
+	box-shadow: 5px 5px 5px #1300a1;
+	transform: translateY(5px);
+}
+
+button:hover{
+	background:#07ab1d;
+	box-shadow: 5px 5px 5px #75fc4c;
+}
+
+button a{
+	color: #FFFFFF;
+	font-size: x-large;
+}
+
+.center{
+	text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	margin: 2%;
+
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+
+
+	text-decoration: none;
+	padding: 1%;
+
+	background: #4afa2f;
+	background: -moz-linear-gradient(top,#4afa2f 0%, #00B7ea 100%);
+	background: -webkit-linear-gradient(#4afa2f 0%, #00B7ea 100%);
+	background: -o-linear-gradient(#4afa2f 0%, #00B7ea 100%);
+	background: linear-gradient(#4afa2f 0%, #00B7ea 100%);
+	text-align: center;
+	color: #FFFFFF;	
+	font-weight: bold;
+	vertical-align: middle;
+	width:180px;
+	height: 30px;
+	transition: 1s ease;
+}
+
+nav a:hover{
+	background: #fce31e;
+	background: -moz-linear-gradient(top,#fce31e 0%, #f72d81 100%);
+	background: -webkit-linear-gradient(#fce31e 0%, #f72d81 100%);
+	background: -o-linear-gradient(#fce31e 0%, #f72d81 100%);
+	background: linear-gradient(#fce31e 0%, #f72d81 100%);
+	width:200px;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	-o-border-radius: 20;
+	border-radius: 35px;
+}
+.active{
+	background: #00B7ea;
+	background: -moz-linear-gradient(top,#00B7ea 0%, #4afa2f 100%);
+	background: -webkit-linear-gradient(#00B7ea 0%, #4afa2f 100%);
+	background: -o-linear-gradient(#00B7ea 0%, #4afa2f 100%);
+	background: linear-gradient(#00B7ea 0%, #4afa2f 100%);
+	width:200px;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	-o-border-radius: 20;
+	border-radius: 35px;
+}
+
+#covid{
+	line-height: 300px;
+	background-image: url("images/covid19.jpg");
+	background-size: 100%;
+	}
+
+#banner{
+	background-image: url("images/apollo banner.jpg");
+	line-height: 150px;
+}		
+#corona{
+	color: #FFFFFF;
+
+}
+
+#contact{
+	background-color: #454747;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+.animate{
+	width: 200px;
+	height: 200px;
+	transition: 1s ease;
+	opacity: 0.6;
+}
+.animate:hover{
+	opacity:1;
+	width:300px;
+	height:300px;
+}
+
+footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00B7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00B7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00B7ea 100%);
+	background: linear-gradient(#666666 0%, #00B7ea 100%);
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#visit{
+	text-align: center;
+}
+
+.left {
+	background-color: #0a89f7;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+.right {
+	width:73%;
+	display: inline-block;
+	padding-left: 2%;
+	font-size: large;
+	background-color: #b5b5ba;
+}
+
+.left img {
+	border: solid 1px #33ff77;
+	width: 73%;
+	margin: 10%;
+}
+
+.black{
+	color: #3c2fd4;
+
+}
+
+summary{
+	color: #b50d0d;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.yellow{
+	background-color: #3ec5fa;
+}
+
+.red{
+	color: #3c2fd4;
+}
+
+.green{
+	color:#e60000;
+}
+
+#feedback{
+	background-color: #4afa2f;
+	text-align: center;
+	line-height: 65px;
+}
